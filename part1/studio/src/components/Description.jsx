@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Description.module.css";
 
-export const RecipeAuthor = () => {
+const RecipeAuthor = () => {
 	let authorLink, authorPhoto, authorName;
 	authorLink = "https://www.butterbeready.com/authentic-cajun-gumbo/";
 	authorPhoto =
