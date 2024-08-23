@@ -1,7 +1,7 @@
 import recipedata from "./recipe.json";
 
 function RecipeName() {
-  return recipedata;
+	return recipedata.map((props) => <h2>{props.name}</h2>);
 }
 
 export default RecipeName;
